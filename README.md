@@ -16,7 +16,7 @@ s3://terraform-workspaces-demo
 │   ├── dev
 │   │   ├── terraform-workspace-demo
 │   │       ├── state.tfstate
-│   ├── uat
+│   ├── test
 │   │   ├── terraform-workspace-demo
 │   │       ├── state.tfstate
 │   ├── prod
