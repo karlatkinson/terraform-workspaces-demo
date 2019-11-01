@@ -25,7 +25,7 @@ you can then reference `terraform.workspace` within your terraform to access the
 ### What this looks like in s3
 
 ```
-s3://terraform-workspaces-demo
+s3://karls-terraform-state-bucket
 
 ├── terraform-workspace-demo (default state if used)
 │   ├── state.tfstate
