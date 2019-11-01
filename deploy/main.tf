@@ -37,7 +37,7 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_instance" "web" {
   ami           = "${data.aws_ami.ubuntu.id}"
-  instance_type="${local.instance_type}"
+  instance_type = "${local.instance_type}"
 
   tags = local.tags
 }
